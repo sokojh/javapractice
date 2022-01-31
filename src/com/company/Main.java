@@ -1,23 +1,24 @@
 package com.company;
-
+import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //while문 예시
-        int i = 1;
-        int a = 1;
-        int atotal = 0;
-        int total = 0; // i의 값을 누적할 변수를 선언합니다.int i = 1;
-        while(i <= 100){
-            total = total + i;
-            i++;
-        }
-        while(a<=100){
-            atotal = atotal + a;
-            i++;
-            System.out.println(atotal);
-        }
+        //do-while문 예제
+        int value = 0;
 
+        // Scanner는 java.util 패키지에 있는 클래스로써 키보드로 부터 값을 입력받는다던지 할 때 유용하게 사용할 수 있는 클래스입니다.
+        Scanner scan = new Scanner(System.in);
+        //위 처럼 작성하시면 키보드로부터 값을 입력받을 수 있는 Scanner객체가 생성됩니다.
 
+        do{
+            value = scan.nextInt(); // Scanner클래스를 이용하여 키보드로 부터 숫자값을 입력받습니다.
+            System.out.println("입력받은 수 : " + value);
+        }while(value != 10);  // 입력받은 값이 10이 아닐 경우에는 계속 반복합니다.
+
+        System.out.println("반복문 종료");
     }
 }
+
+
+
+
