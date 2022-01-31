@@ -3,19 +3,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //do-while문 예제
-        int value = 0;
+        //1차원 배열 실습 예제
+        //int[] array1 = new int[] {1,2,3,4,5};//선언과 초기화,할당을 동시에하는 경우
+       int[] array1 = new  int[4]; //선언 따로 할당따로
+       array1[0] = 1;
+       array1[1] = 2;
+       array1[2] = 3;
+       array1[3] = 4;
+       //array1[4] = 5; 이렇게하면 오류 난다 왜? 우리가 위에서 만든 4라는 숫자는 '크기' 4라는 뜻이다. 배열 4까지가 아니라!
+        System.out.println(array1[1]);
 
-        // Scanner는 java.util 패키지에 있는 클래스로써 키보드로 부터 값을 입력받는다던지 할 때 유용하게 사용할 수 있는 클래스입니다.
-        Scanner scan = new Scanner(System.in);
-        //위 처럼 작성하시면 키보드로부터 값을 입력받을 수 있는 Scanner객체가 생성됩니다.
 
-        do{
-            value = scan.nextInt(); // Scanner클래스를 이용하여 키보드로 부터 숫자값을 입력받습니다.
-            System.out.println("입력받은 수 : " + value);
-        }while(value != 10);  // 입력받은 값이 10이 아닐 경우에는 계속 반복합니다.
 
-        System.out.println("반복문 종료");
     }
 }
 
