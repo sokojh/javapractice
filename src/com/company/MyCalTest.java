@@ -7,5 +7,6 @@ public class MyCalTest {
         int i = cal.exec(4,5);
         System.out.println(i);
         Calculator.exec2(3,4);
+
     }
 }
