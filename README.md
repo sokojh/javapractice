@@ -1,9 +1,10 @@
-# javapractice
-Java 문법 정리(with. Programmers)<br>
+# Java입문 정리
+Java 입문 실습 정리(with. Programmers)<br>
 
-![로고](./images/programmersLogo.png)<br>
-[자바 입문 프로그래머스](https://programmers.co.kr/learn/courses/5)<br>
-<br>[자바 중급 프로그래머스](https://programmers.co.kr/learn/courses/9)<br>
+![로고](./images/programmersLogo.png) <br>
+[자바 입문 프로그래머스](https://programmers.co.kr/learn/courses/5) <br>
+<br>
+[자바 중급 프로그래머스](https://programmers.co.kr/learn/courses/9) 
 # 자바 실습정리.
 <hr>
 강의중 <b>이해가 조금이라도 안되는 부분들</b>을 실습으로 직접해보며 정리합니다.<br>
