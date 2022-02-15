@@ -21,7 +21,6 @@ public class Solution_Hash {
         }
         return answer;
     }
-
     public static void main(String[] args) {
         String[] part = {"leo","kiki","eden"};
         String[] comp = {"eden","kiki"};
